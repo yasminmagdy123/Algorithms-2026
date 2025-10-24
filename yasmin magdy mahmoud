@@ -1,0 +1,13 @@
+def selecton_sort(arr)
+arr=[64,25,12,22,11]     #مصفوفه الارقام اللي هنرتبها 
+n=len(arr)                #بنحسب طول المصفوفه
+for i in range (n-1):
+  min index =i                  #بنفترض  ان العنصر الحالي هو الاصغر
+for j in range (i+1,n):
+    if arr[j]arr[min-index]:
+        min index=j
+        #لو لقينا اصغر نحفظ مكانه 
+arr[i],arr[min-index]=arr[min-index],arr[i]
+#بنبدل بين العنصر الحالي والاصغر اللي لقيناه 
+print[64,25,22,12,11]
+#طبع المصفوفه بعد الترتيب 
